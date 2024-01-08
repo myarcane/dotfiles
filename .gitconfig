@@ -1,0 +1,27 @@
+[user]
+  name = Florian Mailliet
+  email = personal@email.com|work@email.com
+[core]
+  editor = vim
+  autocrlf = false
+  whitespace = trailing-space,space-before-tab,tab-in-indent
+  excludesfile = ~/.gitignore-global
+[rerere]
+  enabled = true
+[alias]
+  br = branch -v
+  ba = branch -va
+  cm = commit -v
+  co = checkout
+  st = status
+  ru = remote update
+  nlog = log --name-status --decorate
+  ls = log --pretty=oneline --abbrev-commit --decorate
+  gr = log --pretty=oneline --abbrev-commit --decorate --graph
+  share = "!git daemon --reuseaddr --verbose  --base-path=`git rev-parse --show-toplevel` --export-all `git rev-parse --show-toplevel`/.git"
+[color]
+  ui = auto
+[merge]
+  summary = true
+[init]
+	defaultBranch = main
