@@ -24,4 +24,4 @@
 [merge]
   summary = true
 [init]
-	defaultBranch = main
+  defaultBranch = main
