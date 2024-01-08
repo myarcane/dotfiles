@@ -25,3 +25,8 @@
   summary = true
 [init]
   defaultBranch = main
+# For windows WSL to be able to trigger the git credential manager  
+#[credential]
+#	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe
+#[credential "https://dev.azure.com"]
+#	useHttpPath = true
