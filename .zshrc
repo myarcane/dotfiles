@@ -73,28 +73,9 @@ export LS_COLORS="rs=0:no=00:mi=00:mh=00:ln=01;36:or=01;31:di=01;34:ow=04;01;34:
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor root line)
 ZSH_HIGHLIGHT_PATTERNS=('rm -rf *' 'fg=white,bold,bg=red')
 
-plugins=( 
-    adb
-    command-not-found
-    extract
-    deno
-    docker
+plugins=(
     git
-    github
-    gitignore
-    history-substring-search
-    node
-    npm
-    nvm
-    yarn
-    volta
-    vscode
-    sudo
-    web-search
-    z
     zsh-autosuggestions
-    zsh-syntax-highlighting
-    ohmyzsh-full-autoupdate
 )
 
 source $ZSH/oh-my-zsh.sh
